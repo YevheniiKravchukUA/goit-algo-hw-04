@@ -11,4 +11,4 @@ def total_salary(path: str) -> Tuple[int, float]:
     except Exception as ex:
         print("Something going wrong! :skull_and_crossbones:")
     else:
-        return tuple([summ, summ / 2])
+        return tuple([summ, summ / len(lines)])
